@@ -8,22 +8,26 @@
   <registry>
     <language id="13371908-e17e-497c-a344-e68effa68d47" name="ToolShed">
       <concept id="7177983817645907473" name="ToolShed.structure.Workbench" flags="ng" index="5P0Lh">
+        <reference id="7773464992391764042" name="shelf" index="3M$JPN" />
         <child id="7177983817645907486" name="toolBoxes" index="5P0Lu" />
       </concept>
-      <concept id="7177983817645907474" name="ToolShed.structure.Warehouse" flags="ng" index="5P0Li">
+      <concept id="7177983817645907474" name="ToolShed.structure.Tools" flags="ng" index="5P0Li">
         <child id="7177983817645907479" name="tools" index="5P0Ln" />
       </concept>
       <concept id="7177983817645907475" name="ToolShed.structure.Tool" flags="ng" index="5P0Lj" />
       <concept id="7177983817645907476" name="ToolShed.structure.Toolbox" flags="ng" index="5P0Lk">
         <reference id="7177983817645907493" name="type" index="5P0L_" />
-        <child id="7177983817645907488" name="tools" index="5P0Lw" />
+        <child id="7177983817645907488" name="_tools" index="5P0Lw" />
       </concept>
-      <concept id="7177983817645907481" name="ToolShed.structure.Toolbox_Tool" flags="ng" index="5P0Lp">
+      <concept id="7177983817645907481" name="ToolShed.structure.ToolRef" flags="ng" index="5P0Lp">
         <reference id="7177983817645907482" name="tool" index="5P0Lq" />
       </concept>
       <concept id="7177983817645907490" name="ToolShed.structure.ToolboxType" flags="ng" index="5P0Ly" />
       <concept id="7177983817645907496" name="ToolShed.structure.ToolboxTypes" flags="ng" index="5P0LC">
         <child id="7177983817645907497" name="types" index="5P0LD" />
+      </concept>
+      <concept id="8997971565497527291" name="ToolShed.structure.Shelf" flags="ng" index="1gl9Mc">
+        <child id="8997971565497527346" name="_tools" index="1gl9H5" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -44,6 +48,7 @@
     </node>
   </node>
   <node concept="5P0Lh" id="6etk$1AiZoe">
+    <ref role="3M$JPN" node="3VL5Nd8D06f" />
     <node concept="5P0Lk" id="6etk$1AiZof" role="5P0Lu">
       <property role="TrG5h" value="TomsToolbox" />
       <ref role="5P0L_" node="6etk$1AimM0" resolve="large" />
@@ -87,6 +92,23 @@
     </node>
     <node concept="5P0Lj" id="6etk$1Ajy6Z" role="5P0Ln">
       <property role="TrG5h" value="Ducktape" />
+    </node>
+  </node>
+  <node concept="1gl9Mc" id="3VL5Nd8D06f">
+    <node concept="5P0Lp" id="3VL5Nd8D07R" role="1gl9H5">
+      <ref role="5P0Lq" node="6etk$1Ajy6U" resolve="Chainsaw" />
+    </node>
+    <node concept="5P0Lp" id="3VL5Nd8D08J" role="1gl9H5">
+      <ref role="5P0Lq" node="6etk$1Ajy6Z" resolve="Ducktape" />
+    </node>
+    <node concept="5P0Lp" id="3VL5Nd8D0au" role="1gl9H5">
+      <ref role="5P0Lq" node="6etk$1Ajx2m" resolve="Hammer" />
+    </node>
+    <node concept="5P0Lp" id="3VL5Nd8D0ce" role="1gl9H5">
+      <ref role="5P0Lq" node="6etk$1Ajy6N" resolve="Screwdriver" />
+    </node>
+    <node concept="5P0Lp" id="3VL5Nd8D0dZ" role="1gl9H5">
+      <ref role="5P0Lq" node="6etk$1Ajy6Q" resolve="Spanner" />
     </node>
   </node>
 </model>

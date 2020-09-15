@@ -48,10 +48,15 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="6etk$1AilSk" resolve="Toolbox" />
     </node>
+    <node concept="1TJgyj" id="6JwTjApsxxa" role="1TKVEi">
+      <property role="IQ2ns" value="7773464992391764042" />
+      <property role="20kJfa" value="shelf" />
+      <ref role="20lvS9" node="7NvdRsGyUJV" resolve="Shelf" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6etk$1AilSi">
     <property role="EcuMT" value="7177983817645907474" />
-    <property role="TrG5h" value="Warehouse" />
+    <property role="TrG5h" value="Tools" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6etk$1AilSn" role="1TKVEi">
@@ -77,9 +82,9 @@
     <node concept="1TJgyj" id="6etk$1AilSw" role="1TKVEi">
       <property role="IQ2ns" value="7177983817645907488" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="tools" />
+      <property role="20kJfa" value="_tools" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6etk$1AilSp" resolve="Toolbox_Tool" />
+      <ref role="20lvS9" node="6etk$1AilSp" resolve="ToolRef" />
     </node>
     <node concept="1TJgyj" id="6etk$1AilS_" role="1TKVEi">
       <property role="IQ2ns" value="7177983817645907493" />
@@ -93,7 +98,7 @@
   </node>
   <node concept="1TIwiD" id="6etk$1AilSp">
     <property role="EcuMT" value="7177983817645907481" />
-    <property role="TrG5h" value="Toolbox_Tool" />
+    <property role="TrG5h" value="ToolRef" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6etk$1AilSq" role="1TKVEi">
       <property role="IQ2ns" value="7177983817645907482" />
@@ -121,6 +126,19 @@
       <property role="20kJfa" value="types" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="6etk$1AilSy" resolve="ToolboxType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7NvdRsGyUJV">
+    <property role="EcuMT" value="8997971565497527291" />
+    <property role="TrG5h" value="Shelf" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7NvdRsGyUKM" role="1TKVEi">
+      <property role="IQ2ns" value="8997971565497527346" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="_tools" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6etk$1AilSp" resolve="ToolRef" />
     </node>
   </node>
 </model>
