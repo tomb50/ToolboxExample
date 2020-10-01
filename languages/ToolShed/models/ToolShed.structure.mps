@@ -79,12 +79,12 @@
     <property role="EcuMT" value="7177983817645907476" />
     <property role="TrG5h" value="Toolbox" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6etk$1AilSw" role="1TKVEi">
-      <property role="IQ2ns" value="7177983817645907488" />
+    <node concept="1TJgyj" id="5gxs7SWKwDj" role="1TKVEi">
+      <property role="IQ2ns" value="6062250260904938067" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="_tools" />
+      <property role="20kJfa" value="_borrow" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6etk$1AilSp" resolve="ToolRef" />
+      <ref role="20lvS9" node="5gxs7SWKwDg" resolve="Borrow" />
     </node>
     <node concept="1TJgyj" id="6etk$1AilS_" role="1TKVEi">
       <property role="IQ2ns" value="7177983817645907493" />
@@ -94,17 +94,6 @@
     </node>
     <node concept="PrWs8" id="6etk$1Ajfc4" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6etk$1AilSp">
-    <property role="EcuMT" value="7177983817645907481" />
-    <property role="TrG5h" value="ToolRef" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6etk$1AilSq" role="1TKVEi">
-      <property role="IQ2ns" value="7177983817645907482" />
-      <property role="20kJfa" value="tool" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="6etk$1AilSj" resolve="Tool" />
     </node>
   </node>
   <node concept="1TIwiD" id="6etk$1AilSy">
@@ -133,12 +122,34 @@
     <property role="TrG5h" value="Shelf" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="7NvdRsGyUKM" role="1TKVEi">
-      <property role="IQ2ns" value="8997971565497527346" />
+    <node concept="1TJgyj" id="5gxs7SWKwDd" role="1TKVEi">
+      <property role="IQ2ns" value="6062250260904938061" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="_tools" />
+      <property role="20kJfa" value="_possess" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6etk$1AilSp" resolve="ToolRef" />
+      <ref role="20lvS9" node="5gxs7SWKwCJ" resolve="Possess" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5gxs7SWKwCJ">
+    <property role="EcuMT" value="6062250260904938031" />
+    <property role="TrG5h" value="Possess" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5gxs7SWKwCK" role="1TKVEi">
+      <property role="IQ2ns" value="6062250260904938032" />
+      <property role="20kJfa" value="tool" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6etk$1AilSj" resolve="Tool" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5gxs7SWKwDg">
+    <property role="EcuMT" value="6062250260904938064" />
+    <property role="TrG5h" value="Borrow" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5gxs7SWKwDh" role="1TKVEi">
+      <property role="IQ2ns" value="6062250260904938065" />
+      <property role="20kJfa" value="tool" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6etk$1AilSj" resolve="Tool" />
     </node>
   </node>
 </model>

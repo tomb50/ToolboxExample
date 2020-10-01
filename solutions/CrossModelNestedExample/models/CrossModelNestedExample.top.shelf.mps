@@ -9,20 +9,20 @@
   </imports>
   <registry>
     <language id="13371908-e17e-497c-a344-e68effa68d47" name="ToolShed">
-      <concept id="7177983817645907481" name="ToolShed.structure.ToolRef" flags="ng" index="5P0Lp">
-        <reference id="7177983817645907482" name="tool" index="5P0Lq" />
-      </concept>
       <concept id="8997971565497527291" name="ToolShed.structure.Shelf" flags="ng" index="1gl9Mc">
-        <child id="8997971565497527346" name="_tools" index="1gl9H5" />
+        <child id="6062250260904938061" name="_possess" index="1CSRCN" />
+      </concept>
+      <concept id="6062250260904938031" name="ToolShed.structure.Possess" flags="ng" index="1CSRDh">
+        <reference id="6062250260904938032" name="tool" index="1CSRDe" />
       </concept>
     </language>
   </registry>
   <node concept="1gl9Mc" id="6JwTjApsmQ5">
-    <node concept="5P0Lp" id="6JwTjApsmRn" role="1gl9H5">
-      <ref role="5P0Lq" to="cw3z:6JwTjApsmMC" resolve="Macmini" />
+    <node concept="1CSRDh" id="5gxs7SWLPej" role="1CSRCN">
+      <ref role="1CSRDe" to="cw3z:6JwTjApsmMC" resolve="Macmini" />
     </node>
-    <node concept="5P0Lp" id="6JwTjApsmSf" role="1gl9H5">
-      <ref role="5P0Lq" to="cw3z:6JwTjApsmOm" resolve="Pc" />
+    <node concept="1CSRDh" id="5gxs7SWLPel" role="1CSRCN">
+      <ref role="1CSRDe" to="cw3z:6JwTjApsmOm" resolve="Pc" />
     </node>
   </node>
 </model>
