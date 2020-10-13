@@ -7,8 +7,7 @@
   <imports />
   <registry>
     <language id="13371908-e17e-497c-a344-e68effa68d47" name="ToolShed">
-      <concept id="7177983817645907473" name="ToolShed.structure.Workbench" flags="ng" index="5P0Lh">
-        <reference id="7773464992391764042" name="shelf" index="3M$JPN" />
+      <concept id="7177983817645907473" name="ToolShed.structure.WorkShop" flags="ng" index="5P0Lh">
         <child id="7177983817645907486" name="toolBoxes" index="5P0Lu" />
       </concept>
       <concept id="7177983817645907474" name="ToolShed.structure.Tools" flags="ng" index="5P0Li">
@@ -48,7 +47,6 @@
     </node>
   </node>
   <node concept="5P0Lh" id="6etk$1AiZoe">
-    <ref role="3M$JPN" node="3VL5Nd8D06f" />
     <node concept="5P0Lk" id="6etk$1AiZof" role="5P0Lu">
       <property role="TrG5h" value="TomsToolbox" />
       <ref role="5P0L_" node="6etk$1AimM0" resolve="large" />
@@ -67,6 +65,9 @@
       <ref role="5P0L_" node="6etk$1AimLV" resolve="small" />
       <node concept="5P0Lp" id="2WgVzDYJZ3X" role="5P0Lw">
         <ref role="5P0Lq" node="6etk$1Ajy6U" resolve="Chainsaw" />
+      </node>
+      <node concept="5P0Lp" id="58q8LNpbCK0" role="5P0Lw">
+        <ref role="5P0Lq" node="6etk$1Ajy6N" resolve="Screwdriver" />
       </node>
     </node>
     <node concept="5P0Lk" id="1rC3ExU7kDT" role="5P0Lu">
@@ -109,6 +110,9 @@
     </node>
     <node concept="5P0Lp" id="3VL5Nd8D0dZ" role="1gl9H5">
       <ref role="5P0Lq" node="6etk$1Ajy6Q" resolve="Spanner" />
+    </node>
+    <node concept="5P0Lp" id="58q8LNpbEpf" role="1gl9H5">
+      <ref role="5P0Lq" node="6etk$1Ajy6U" resolve="Chainsaw" />
     </node>
   </node>
 </model>
