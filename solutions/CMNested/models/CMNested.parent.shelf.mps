@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:4bbc04bd-caf2-4cd6-87f5-97db6e55ec43(CrossModelExample.shelf)">
+<model ref="r:4f1f3c5a-313f-4ba8-9349-b16e86cee0b0(CMNested.parent.shelf)">
   <persistence version="9" />
-  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="13371908-e17e-497c-a344-e68effa68d47" name="ToolShed" version="0" />
   </languages>
   <imports>
-    <import index="dclf" ref="r:98fe1fa2-bed5-4067-956c-9a7a00b44cbc(CrossModelExample.tools)" />
+    <import index="a468" ref="r:3eb52d3d-0dac-4fd9-ae8a-a4b11ef0f0f5(CMNested.parent.tools)" />
   </imports>
   <registry>
     <language id="13371908-e17e-497c-a344-e68effa68d47" name="ToolShed">
@@ -18,15 +17,12 @@
       </concept>
     </language>
   </registry>
-  <node concept="1gl9Mc" id="3VL5Nd8E2Kn">
-    <node concept="5P0Lp" id="3VL5Nd8E2Ko" role="1gl9H5">
-      <ref role="5P0Lq" to="dclf:3VL5Nd8E2CZ" resolve="Pasta" />
+  <node concept="1gl9Mc" id="2Mw5RwL5Rz$">
+    <node concept="5P0Lp" id="2Mw5RwL5Rz_" role="1gl9H5">
+      <ref role="5P0Lq" to="a468:2Mw5RwL5Rzx" resolve="Apple" />
     </node>
-    <node concept="5P0Lp" id="3VL5Nd8E2Nr" role="1gl9H5">
-      <ref role="5P0Lq" to="dclf:3VL5Nd8E2EI" resolve="Pepperoni" />
-    </node>
-    <node concept="5P0Lp" id="6W_GqutoXml" role="1gl9H5">
-      <ref role="5P0Lq" to="dclf:3VL5Nd8E2BG" resolve="Pizza" />
+    <node concept="5P0Lp" id="2Mw5RwL5RF2" role="1gl9H5">
+      <ref role="5P0Lq" to="a468:2Mw5RwL5Rzv" resolve="Banana" />
     </node>
   </node>
 </model>

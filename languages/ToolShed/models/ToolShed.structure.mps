@@ -10,6 +10,9 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
+        <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
@@ -31,6 +34,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -41,6 +47,12 @@
     <property role="TrG5h" value="WorkShop" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6UpZN1k_HuP" role="1TKVEi">
+      <property role="IQ2ns" value="7969681598651488181" />
+      <property role="20kJfa" value="usesShelf" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7NvdRsGyUJV" resolve="Shelf" />
+    </node>
     <node concept="1TJgyj" id="6etk$1AilSu" role="1TKVEi">
       <property role="IQ2ns" value="7177983817645907486" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -80,6 +92,13 @@
       <property role="20kJfa" value="_tools" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="6etk$1AilSp" resolve="ToolRef" />
+    </node>
+    <node concept="1TJgyj" id="7tqr1UWRYE_" role="1TKVEi">
+      <property role="IQ2ns" value="8600305317690993317" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="_uses" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7tqr1UWRYED" resolve="Uses" />
     </node>
     <node concept="1TJgyj" id="6etk$1AilS_" role="1TKVEi">
       <property role="IQ2ns" value="7177983817645907493" />
@@ -138,17 +157,31 @@
     <node concept="1TJgyj" id="58q8LNpbI7H" role="1TKVEi">
       <property role="IQ2ns" value="5916079667314352621" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="_implicits" />
+      <property role="20kJfa" value="_provides" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="58q8LNpbFv2" resolve="ImplicitRef" />
+      <ref role="20lvS9" node="58q8LNpbFv2" resolve="ProvidesOld" />
+      <node concept="t5JxF" id="ggIoDNxW4o" role="lGtFl">
+        <property role="t5JxN" value="transient" />
+      </node>
     </node>
   </node>
   <node concept="1TIwiD" id="58q8LNpbFv2">
     <property role="EcuMT" value="5916079667314341826" />
-    <property role="TrG5h" value="ImplicitRef" />
+    <property role="TrG5h" value="ProvidesOld" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="58q8LNpbFv3" role="1TKVEi">
       <property role="IQ2ns" value="5916079667314341827" />
+      <property role="20kJfa" value="tool" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6etk$1AilSj" resolve="Tool" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7tqr1UWRYED">
+    <property role="EcuMT" value="8600305317690993321" />
+    <property role="TrG5h" value="Uses" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7tqr1UWRYEE" role="1TKVEi">
+      <property role="IQ2ns" value="8600305317690993322" />
       <property role="20kJfa" value="tool" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6etk$1AilSj" resolve="Tool" />

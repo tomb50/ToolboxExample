@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:98fe1fa2-bed5-4067-956c-9a7a00b44cbc(CrossModelExample.tools)">
+<model ref="r:3eb52d3d-0dac-4fd9-ae8a-a4b11ef0f0f5(CMNested.parent.tools)">
   <persistence version="9" />
-  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="13371908-e17e-497c-a344-e68effa68d47" name="ToolShed" version="0" />
   </languages>
@@ -19,15 +18,12 @@
       </concept>
     </language>
   </registry>
-  <node concept="5P0Li" id="3VL5Nd8E2Bg">
-    <node concept="5P0Lj" id="3VL5Nd8E2BG" role="5P0Ln">
-      <property role="TrG5h" value="Pizza" />
+  <node concept="5P0Li" id="2Mw5RwL5Rzu">
+    <node concept="5P0Lj" id="2Mw5RwL5Rzv" role="5P0Ln">
+      <property role="TrG5h" value="Banana" />
     </node>
-    <node concept="5P0Lj" id="3VL5Nd8E2CZ" role="5P0Ln">
-      <property role="TrG5h" value="Pasta" />
-    </node>
-    <node concept="5P0Lj" id="3VL5Nd8E2EI" role="5P0Ln">
-      <property role="TrG5h" value="Pepperoni" />
+    <node concept="5P0Lj" id="2Mw5RwL5Rzx" role="5P0Ln">
+      <property role="TrG5h" value="Apple" />
     </node>
   </node>
 </model>

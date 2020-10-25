@@ -4,7 +4,9 @@
   <languages>
     <use id="7ab1a6fa-0a11-4b95-9e48-75f363d6cb00" name="jetbrains.mps.lang.generator.plan" version="1" />
   </languages>
-  <imports />
+  <imports>
+    <import index="jok3" ref="r:262ecd7c-043f-4789-9119-c1c32c369725(main@generator)" />
+  </imports>
   <registry>
     <language id="7ab1a6fa-0a11-4b95-9e48-75f363d6cb00" name="jetbrains.mps.lang.generator.plan">
       <concept id="1820634577908471803" name="jetbrains.mps.lang.generator.plan.structure.Plan" flags="ng" index="2VgMpV">
@@ -32,15 +34,20 @@
   </registry>
   <node concept="2VgMpV" id="3VL5Nd8E36M">
     <property role="TrG5h" value="ToolShed_Generation_Plan" />
+    <node concept="2VgMA1" id="1q0WJ0AA8Dz" role="2VgMA7">
+      <node concept="3ps74r" id="1q0WJ0AA8DG" role="3ps6aC">
+        <property role="TrG5h" value="beforeCheckpoint" />
+      </node>
+    </node>
     <node concept="2VgMA2" id="6JwTjAprqoX" role="2VgMA7">
-      <node concept="2V$Bhx" id="6JwTjAprqpR" role="1t_9vn">
+      <node concept="2V$Bhx" id="1q0WJ0AAact" role="1t_9vn">
         <property role="2V$B1T" value="13371908-e17e-497c-a344-e68effa68d47" />
         <property role="2V$B1Q" value="ToolShed" />
       </node>
     </node>
     <node concept="2VgMA1" id="3VL5Nd8E3bd" role="2VgMA7">
       <node concept="3ps74r" id="3VL5Nd8E3bJ" role="3ps6aC">
-        <property role="TrG5h" value="afterToolshed" />
+        <property role="TrG5h" value="afterCheckPoint" />
       </node>
     </node>
   </node>

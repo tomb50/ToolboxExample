@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:98fe1fa2-bed5-4067-956c-9a7a00b44cbc(CrossModelExample.tools)">
+<model ref="r:2c552869-b0c6-4be5-a6a3-e3745b5e4e35(ToolShed.acc)">
   <persistence version="9" />
-  <attribute name="doNotGenerate" value="false" />
+  <attribute name="doNotGenerate" value="true" />
   <languages>
     <use id="13371908-e17e-497c-a344-e68effa68d47" name="ToolShed" version="0" />
+    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
-  <imports />
+  <imports>
+    <import index="5hq1" ref="r:6d69e984-78c7-474c-8ef0-a2eef0d756df(ToolShed.structure)" />
+  </imports>
   <registry>
     <language id="13371908-e17e-497c-a344-e68effa68d47" name="ToolShed">
       <concept id="7177983817645907474" name="ToolShed.structure.Tools" flags="ng" index="5P0Li">
@@ -19,15 +22,9 @@
       </concept>
     </language>
   </registry>
-  <node concept="5P0Li" id="3VL5Nd8E2Bg">
-    <node concept="5P0Lj" id="3VL5Nd8E2BG" role="5P0Ln">
-      <property role="TrG5h" value="Pizza" />
-    </node>
-    <node concept="5P0Lj" id="3VL5Nd8E2CZ" role="5P0Ln">
-      <property role="TrG5h" value="Pasta" />
-    </node>
-    <node concept="5P0Lj" id="3VL5Nd8E2EI" role="5P0Ln">
-      <property role="TrG5h" value="Pepperoni" />
+  <node concept="5P0Li" id="2Mw5RwL8cHL">
+    <node concept="5P0Lj" id="2Mw5RwL8cHM" role="5P0Ln">
+      <property role="TrG5h" value="DefaultToolds" />
     </node>
   </node>
 </model>
