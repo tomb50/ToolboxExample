@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:98fe1fa2-bed5-4067-956c-9a7a00b44cbc(CrossModelExample.tools)">
   <persistence version="9" />
-  <attribute name="doNotGenerate" value="false" />
+  <attribute name="doNotGenerate" value="true" />
   <languages>
     <use id="13371908-e17e-497c-a344-e68effa68d47" name="ToolShed" version="0" />
   </languages>

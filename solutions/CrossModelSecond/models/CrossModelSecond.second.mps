@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:5f8e44fb-8a10-44ff-a5aa-8c1f66961d7a(CrossModelExample.workbench)">
+<model ref="r:c6924c19-05c8-4dec-94fb-4586aceabdd0(CrossModelSecond.second)">
   <persistence version="9" />
   <languages>
     <use id="13371908-e17e-497c-a344-e68effa68d47" name="ToolShed" version="0" />
@@ -31,31 +31,31 @@
       </concept>
     </language>
   </registry>
-  <node concept="5P0LC" id="3VL5Nd8E2GT">
-    <node concept="5P0Ly" id="3VL5Nd8E2Hl" role="5P0LD">
-      <property role="TrG5h" value="mini" />
-    </node>
-    <node concept="5P0Ly" id="3VL5Nd8E2IC" role="5P0LD">
-      <property role="TrG5h" value="massive" />
-    </node>
-  </node>
-  <node concept="5P0Lh" id="3VL5Nd8E2Ok">
-    <node concept="5P0Lk" id="3VL5Nd8E2OK" role="5P0Lu">
-      <property role="TrG5h" value="MondayBox" />
-      <ref role="5P0L_" node="3VL5Nd8E2Hl" resolve="mini" />
-      <node concept="3bxoqR" id="6e9e5ojMXTE" role="3bxoqV">
+  <node concept="5P0Lh" id="2wvaK6EqBeg">
+    <node concept="5P0Lk" id="2wvaK6EqBeh" role="5P0Lu">
+      <property role="TrG5h" value="SilverBox" />
+      <ref role="5P0L_" node="2wvaK6EqBfa" resolve="silver" />
+      <node concept="3bxoqR" id="2wvaK6EqBj2" role="3bxoqV">
         <ref role="3bxoqO" to="dclf:3VL5Nd8E2CZ" resolve="Pasta" />
       </node>
-      <node concept="3bxoqR" id="6e9e5ojMXTG" role="3bxoqV">
+      <node concept="3bxoqR" id="2wvaK6EqBjU" role="3bxoqV">
         <ref role="3bxoqO" to="dclf:3VL5Nd8E2EI" resolve="Pepperoni" />
       </node>
     </node>
-    <node concept="5P0Lk" id="3VL5Nd8E2XO" role="5P0Lu">
-      <property role="TrG5h" value="TuesdayBox" />
-      <ref role="5P0L_" node="3VL5Nd8E2IC" resolve="massive" />
-      <node concept="3bxoqR" id="6e9e5ojMXTK" role="3bxoqV">
+    <node concept="5P0Lk" id="2wvaK6EqBkN" role="5P0Lu">
+      <property role="TrG5h" value="GoldBox" />
+      <ref role="5P0L_" node="2wvaK6EqBgt" resolve="gold" />
+      <node concept="3bxoqR" id="2wvaK6EqBmZ" role="3bxoqV">
         <ref role="3bxoqO" to="dclf:3VL5Nd8E2BG" resolve="Pizza" />
       </node>
+    </node>
+  </node>
+  <node concept="5P0LC" id="2wvaK6EqBeI">
+    <node concept="5P0Ly" id="2wvaK6EqBfa" role="5P0LD">
+      <property role="TrG5h" value="silver" />
+    </node>
+    <node concept="5P0Ly" id="2wvaK6EqBgt" role="5P0LD">
+      <property role="TrG5h" value="gold" />
     </node>
   </node>
 </model>

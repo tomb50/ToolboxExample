@@ -5,6 +5,7 @@
       <modulePath path="$PROJECT_DIR$/languages/ToolShed/ToolShed.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/ToolShed/sandbox/ToolShed.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/CrossModelExample/CrossModelExample.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/CrossModelSecond/CrossModelSecond.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/ToolShedGenPlan/ToolShedGenPlan.msd" folder="" />
     </projectModules>
   </component>
